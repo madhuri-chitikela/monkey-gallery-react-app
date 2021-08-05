@@ -4,11 +4,12 @@ import Header from './Header';
 import 'bootstrap/dist/css/bootstrap.css';
 import './App.css';
 import Gallery from './Gallery';
-
+import config from "./config.json"
+const dataHostName = config.dataHostName
 function App() {
   const [data, setData] = useState([])
   useEffect(() => {
-    fetch("http://localhost:5000/monkeys_records.json")
+    fetch(`${dataHostName}/monkeys_records.json`)
       .then(r => r.json())
       .then(res => {
         console.log(res)

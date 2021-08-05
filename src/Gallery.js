@@ -15,6 +15,7 @@ function Gallery(props) {
                                 <ImageCard
                                     id={e.id}
                                     Label={e.Label}
+                                    LatinName={e.LatinName}
                                 />
                             </li>
                         )
