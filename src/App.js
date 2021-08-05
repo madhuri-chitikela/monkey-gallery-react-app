@@ -1,23 +1,28 @@
-import logo from './logo.svg';
+
+import { useState, useEffect } from 'react';
+import Header from './Header';
+import 'bootstrap/dist/css/bootstrap.css';
 import './App.css';
+import Gallery from './Gallery';
 
 function App() {
+  const [data, setData] = useState([])
+  useEffect(() => {
+    fetch("http://localhost:5000/monkeys_records.json")
+      .then(r => r.json())
+      .then(res => {
+        console.log(res)
+        setData(res)
+      })
+  }, [])
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <Header />
+      <div className="container-fluid">
+        <h1>Monkeys</h1>
+
+        <Gallery data={data} />
+      </div>
     </div>
   );
 }
