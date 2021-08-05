@@ -1,26 +1,26 @@
 {
   "files": {
     "main.css": "/monkey-gallery-react-app/static/css/main.bab0b925.chunk.css",
-    "main.js": "/monkey-gallery-react-app/static/js/main.235f1bf5.chunk.js",
-    "main.js.map": "/monkey-gallery-react-app/static/js/main.235f1bf5.chunk.js.map",
-    "runtime-main.js": "/monkey-gallery-react-app/static/js/runtime-main.535e245d.js",
-    "runtime-main.js.map": "/monkey-gallery-react-app/static/js/runtime-main.535e245d.js.map",
+    "main.js": "/monkey-gallery-react-app/static/js/main.c52973b4.chunk.js",
+    "main.js.map": "/monkey-gallery-react-app/static/js/main.c52973b4.chunk.js.map",
+    "runtime-main.js": "/monkey-gallery-react-app/static/js/runtime-main.65941e86.js",
+    "runtime-main.js.map": "/monkey-gallery-react-app/static/js/runtime-main.65941e86.js.map",
     "static/css/2.c8806456.chunk.css": "/monkey-gallery-react-app/static/css/2.c8806456.chunk.css",
-    "static/js/2.9a77ee0c.chunk.js": "/monkey-gallery-react-app/static/js/2.9a77ee0c.chunk.js",
-    "static/js/2.9a77ee0c.chunk.js.map": "/monkey-gallery-react-app/static/js/2.9a77ee0c.chunk.js.map",
-    "static/js/3.5ae87a06.chunk.js": "/monkey-gallery-react-app/static/js/3.5ae87a06.chunk.js",
-    "static/js/3.5ae87a06.chunk.js.map": "/monkey-gallery-react-app/static/js/3.5ae87a06.chunk.js.map",
+    "static/js/2.ef7a1c23.chunk.js": "/monkey-gallery-react-app/static/js/2.ef7a1c23.chunk.js",
+    "static/js/2.ef7a1c23.chunk.js.map": "/monkey-gallery-react-app/static/js/2.ef7a1c23.chunk.js.map",
+    "static/js/3.00ecda6c.chunk.js": "/monkey-gallery-react-app/static/js/3.00ecda6c.chunk.js",
+    "static/js/3.00ecda6c.chunk.js.map": "/monkey-gallery-react-app/static/js/3.00ecda6c.chunk.js.map",
     "index.html": "/monkey-gallery-react-app/index.html",
     "static/css/2.c8806456.chunk.css.map": "/monkey-gallery-react-app/static/css/2.c8806456.chunk.css.map",
     "static/css/main.bab0b925.chunk.css.map": "/monkey-gallery-react-app/static/css/main.bab0b925.chunk.css.map",
-    "static/js/2.9a77ee0c.chunk.js.LICENSE.txt": "/monkey-gallery-react-app/static/js/2.9a77ee0c.chunk.js.LICENSE.txt",
+    "static/js/2.ef7a1c23.chunk.js.LICENSE.txt": "/monkey-gallery-react-app/static/js/2.ef7a1c23.chunk.js.LICENSE.txt",
     "static/media/monkeyicon.aeeadbbf.png": "/monkey-gallery-react-app/static/media/monkeyicon.aeeadbbf.png"
   },
   "entrypoints": [
-    "static/js/runtime-main.535e245d.js",
+    "static/js/runtime-main.65941e86.js",
     "static/css/2.c8806456.chunk.css",
-    "static/js/2.9a77ee0c.chunk.js",
+    "static/js/2.ef7a1c23.chunk.js",
     "static/css/main.bab0b925.chunk.css",
-    "static/js/main.235f1bf5.chunk.js"
+    "static/js/main.c52973b4.chunk.js"
   ]
 }
